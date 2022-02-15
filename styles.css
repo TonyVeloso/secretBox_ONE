@@ -1,0 +1,227 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(243, 241, 241);
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: rgb(25, 41, 94);
+  font-family: Impact, Haettenschweiler, sans-serif;
+  font-size: 60px;
+}
+
+#pTitulo {
+  margin-top: 0;
+}
+
+#titulo {
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+}
+
+.container {
+  background-color: rgb(252, 252, 252);
+  width: 1000px;
+  height: 410px;
+  margin: 20px auto;
+  position: relative;
+  border-radius: 4px;
+
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#pContainer {
+  text-align: center;
+}
+
+.box {
+  width: 450px;
+  height: 450px;
+  background-color: transparent;
+
+  border-radius: 10px;
+  position: relative;
+}
+
+#pBoxEsq {
+  margin-left: 23px;
+}
+#boxEsq {
+  position: absolute;
+  top: 30px;
+  left: 5px;
+}
+
+#caixaResultado {
+  padding-top: 2px;
+  padding-left: 3px;
+  display: block;
+  background-color: white;
+  width: 400px;
+  height: 305px;
+  border: none;
+  position: absolute;
+  left: 21px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#boxDir {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+}
+
+#pBoxDir {
+  margin-left: 23px;
+}
+
+textarea {
+  display: flex;
+  padding-left: 2px;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  width: 400px;
+  height: 300px;
+  border: none;
+  resize: none;
+  outline: none;
+  position: absolute;
+  left: 23px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#btnCopiarEsq {
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 400px;
+}
+
+#btnApagarEsq {
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 350px;
+}
+
+#imgCopiarEsq {
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+#imgApagarEsq {
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+#btnCopiarDir {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 400px;
+}
+
+#imgCopiarDir {
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+#btnApagarDir {
+  background-color: transparent;
+  border-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 350px;
+}
+
+#imgApagarDir {
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+.buttonCopiar:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btnApagarEsq:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#btnApagarDir:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.centralButton {
+  position: relative;
+}
+
+.button {
+  font-family: Impact, fantasy;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+  width: 125px;
+  height: 65px;
+  border: solid 5px rgb(6, 247, 6);
+  border-radius: 14px;
+}
+
+.button:hover {
+  background-color: rgb(6, 247, 6);
+}
+
+.button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#imgTransfomar {
+  padding-top: 0;
+  width: 35px;
+  height: 35px;
+}
+
+#transformButton {
+  position: absolute;
+  left: 436.5px;
+  top: 293px;
+}
+
+#imgChange {
+  padding-top: 2px;
+  width: 35px;
+  height: 35px;
+}
+
+#changeButton {
+  position: absolute;
+  font-size: 14px;
+  left: 436.5px;
+  top: 80px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}

@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SecretBox</title>
+
+    <script src="app.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="titulo">
+      <h1>SecretBox</h1>
+      <p id="pTitulo">Crie mensagens criptografadas exclusivas!</p>
+    </div>
+
+    <div class="container">
+      <p id="pContainer">
+        Atenção: não utilizar letras maísculas e acentuação!
+      </p>
+
+      <div class="box" id="boxEsq">
+        <p id="pBoxEsq">Mensagem original</p>
+
+        <button id="btnApagarEsq" onclick="apagaEsq()">
+          <img 
+              id="imgApagarEsq"
+              src="images/apagar.png" 
+              alt="apagar">
+        </button>
+
+        <button id="btnCopiarEsq" onclick="copiarEsquerdo()">
+          <img 
+            class="buttonCopiar"
+            id="imgCopiarEsq"
+            src="images/copiar-conteudo.png"
+            alt="Botão Copiar"
+          />
+        </button>
+
+        <textarea
+          class="textarea"
+          id="textoEntrada"
+          name="textoEsq"
+          cols="50"
+          rows="20"
+          maxlength="300"
+          placeholder="escreva a sua mensagem aqui..."
+          autocapitalize="none"
+        >
+        </textarea>
+      </div>
+
+      <div class="centralButton">
+        <button class="button" onclick="descriptografa()" id="changeButton">
+          <img id="imgChange" src="images/cadeadoAberto.png" alt="trocar" />
+          DESCRIPTOGRAFAR
+        </button>
+
+        <!--<button id="btnTeste" onclick="criptografa()">teste</button>-->
+
+
+        <button class="button" onclick="criptografa()" id="transformButton">
+          <img
+            id="imgTransfomar"
+            src="images/cadeadoFechado.png"
+            alt="transformar"
+          />
+          CRIPTOGRAFAR
+        </button>
+      </div>
+
+      <!-- caixa de resultado-->
+      <div class="box" id="boxDir">
+        <p id="pBoxDir">Mensagem criptografada</p>
+
+        <button id="btnApagarDir" onclick="apagaDir()">
+          <img 
+              id="imgApagarDir"
+              src="images/apagar.png" 
+              alt="apagar"> 
+        </button>
+
+        <button id="btnCopiarDir" onclick="copiarDireito()" placeholder="copiar">
+          <img
+            class="buttonCopiar"
+            id="imgCopiarDir"
+            src="images/copiar-conteudo.png"
+            alt="Botão Copiar"
+          />
+        </button>
+
+          <div id="caixaResultado">
+            <p id="textoResultado"></p>
+          </div>
+        
+      </div>
+    </div>
+
+    
+  </body>
+
+  <footer>
+    <p>
+      Desenvolvido por Manoel Antonio <br />
+      manoel.antonio.salmeida@gmail.com <br> 
+      <a
+      href="https://www.flaticon.com/br/icones-gratis/conteudo"
+      title="conteúdo ícones"
+      >Conteúdo ícones criados por Google - Flaticon</a
+    >
+  </div>  -->
+    </p>
+  </footer>
+</html>
